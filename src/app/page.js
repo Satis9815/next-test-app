@@ -1,3 +1,4 @@
+import FetchData from "@/components/FetchData";
 import LearnLink from "@/components/LearnLink";
 import LearnUseRouter from "@/components/learnUseRouter";
 import Image from "next/image";
@@ -9,6 +10,7 @@ export default function Home() {
         <p>Hello Next Js </p>
         <LearnLink/>
         <LearnUseRouter/>
+        <FetchData/>
       </div>
     </main>
   );
