@@ -39,8 +39,9 @@ export default function Home() {
     },
   ];
   return (
-    <main className="min-h-screen p-2">
-      <header className="mx-auto w-full max-w-6xl  flex justify-between flex-col-reverse mt-4 sm:flex-row sm:items-center">
+    <main className="">
+      <h1>hello Tailwind css </h1>
+      {/* <header className="mx-auto w-full max-w-6xl  flex justify-between flex-col-reverse mt-4 sm:flex-row sm:items-center">
         <div className="relative  mt-4 md:w-1/3">
           <input
             type="text"
@@ -173,7 +174,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </main>
   );
 }
